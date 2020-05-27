@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/css/tailwind.css -o dist/css/style.css",
+    "watch": "postcss src/css/tailwind.css -o dist/css/style.css --watch",
+    "uglify": "uglifyjs src/js/*.js -c -o dist/js/script.min.js"
+  },
+  "author": "Charles Hwang",
+  "license": "ISC",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.2.0",
+    "autoprefixer": "^9.7.6",
+    "imagemin-cli": "^6.0.0",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.4"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.9.3"
+  }
+}

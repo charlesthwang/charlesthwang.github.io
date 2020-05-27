@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Instagram Lists &middot; Charles Hwang</title>
+	<link rel="stylesheet" text="text/css" href="/dist/css/style.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+	<link rel='stylesheet' href='https://rsms.me/inter/inter.css'/>	
+</head>
+
+<body class="antialiased font-sans text-lg top">
+	<div class="bg-gray-800 text-blue-100 sm:px-6 lg:px-8 text-opacity-50">
+		<nav class="w-11/12 md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto flex items-center justify-between py-6 sm:pt-8 pb-16">
+			<a class="text-base sm:text-lg block font-medium hover:text-blue-100 focus:text-blue-100 transition duration-200 ease-in-out" href="/">Charles Hwang</a>
+			<ul class="text-base sm:text-lg flex items-center">
+				<li class="">
+					<a class="font-medium text-blue-100 border-b border-blue-100" href="/">Work</a>
+				</li>
+				<!-- <li class="ml-8 sm:ml-10">
+					<a class="font-medium border-b border-transparent hover:text-blue-100 focus:text-blue-100 hover:border-blue-100 focus:border-blue-100 transition duration-200 ease-in-out" href="/about.html">About me</a>
+				</li> -->
+				<li class="ml-8 sm:ml-10">
+					<a class="font-medium border-b border-transparent hover:text-blue-100 focus:text-blue-100 hover:border-blue-100 focus:border-blue-100 transition duration-200 ease-in-out" href="mailto:charlesthwang@gmail.com">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+
+	<header class="px-6 pt-20 md:px-0 text-white bg-gray-800">
+		<div class="md:max-w-xl mx-auto text-center">
+			<h1 class="font-serif font-black text-4xl leading-snug">Helping People Focus with Custom Feeds</h1>
+		</div>
+		<img class="block mt-12 mx-auto" src="./dist/images/ig-lists/preview.jpg" alt="Instagram Lists preview">
+	</header>
+
+	<section class="pt-16 pb-8">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Overview</h2>
+			<p class="mt-4 leading-relaxed">With over 1 billion monthly active users, Instagram needs no introduction. This project introduces a new feature, called Lists, that allows users to group the accounts they follow and view their content in custom feeds.</p>
+			<p class="mt-4 leading-relaxed">My goal was to not only design the functionality of this feature, but also to integrate it in to the existing UI as seamlessly as possible.</p>
+			<p class="mt-4 leading-relaxed">
+				<a class="font-extrabold border-b border-red-700 hover:border-transparent hover:text-red-700 focus:text-red-700 focus:border-b-0 transition duration-200 ease-in-out" href="#final_mockups">Click here</a> to jump down to the final mockups and <a class="font-extrabold border-b border-red-700 hover:border-transparent hover:text-red-700 focus:text-red-700 focus:border-b-0 transition duration-200 ease-in-out" href="https://www.figma.com/proto/P3HMZVfZyizFQIicXr0WdH/Instagram-Lists?node-id=1%3A345&viewport=599%2C1909%2C0.5580300688743591&scaling=min-zoom" target="_blank">here</a> to see the clickable prototype.
+			</p>
+			<h3 class="mt-8 font-bold text-lg text-gray-700">What I Did</h3>
+			<ul class="pl-8 mt-1 list-disc list-outside">
+        <li>Exploratory survey</li>
+				<li class="mt-1">User stories/Task flows</li>
+				<li class="mt-1">Lo-Fi sketching</li>
+				<li class="mt-1">Hi-Fi prototype</li>
+			</ul>
+			<h3 class="mt-4 font-bold text-lg text-gray-700">Timeline</h3>
+			<p class="mt-1">March 2020, 3 weeks</p>
+		</div>
+	</section>
+	<section class="py-8">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Challenge</h2>
+			<p class="mt-4 leading-relaxed">It all started when a friend wanted to show me an interesting Instagram post from a digital artist, but couldn't remember the account handle.</p>
+      <p class="mt-4 leading-relaxed">He expressed frustration at having to blindly scroll through his feed and following list to find what he was looking for, and wished he could organize the accounts he followed in some way.</p>
+			<p class="pl-6 mt-16 border-l-4 border-red-700 font-bold text-3xl text-red-700">I wish I didn't have to scroll through my entire following list to find someone.</p>
+			<p class="mt-16 leading-relaxed">Taking it upon myself to find a solution, my challenge was to figure out an intuitive way for people to group the accounts they follow and their posts into custom feeds without imposing on the way they already use the app.</p>
+		</div>
+  </section>
+  
+	<section class="relative py-8">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+      <h2 class="font-serif font-black text-3xl">Exploratory Survey</h2>
+      <p class="mt-4 leading-relaxed">I wondered if others had similar struggles trying to find a specific account or past post, especially after Instagram moved away from the reverse chronological feed.</p>
+      <p class="mt-4 leading-relaxed">To try and understand the scope of this issue, I surveyed 50 people on their Instagram usage. By measuring and assessing their behaviors and attitudes, I wanted to see if a grouping feature would be beneficial to other users.</p>
+			<p class="mt-4 leading-relaxed"><a class="font-extrabold border-b border-red-700 hover:border-transparent hover:text-red-700 focus:text-red-700 focus:border-b-0 transition duration-200 ease-in-out" href="https://docs.google.com/forms/d/e/1FAIpQLSfQltgGD1o_1xOBxdmDoufU6-Y52jLvWpx6mnWtBgaFw1Fumg/viewform?usp=sf_link" target="_blank">Click here</a> to see the survey questions.</p>
+		</div>
+	</section>
+
+	<section class="py-8">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Results & Analysis</h2>
+      <p class="mt-4 leading-relaxed">Among the 50 respondents, roughly 80% had more than 100 accounts that they followed with the top three ways they used Instagram being:</p>
+      <ul class="mt-4 pl-8 list-disc list-outside">
+        <li>sharing photos/stories with friends and family</li>
+        <li class="mt-1">following accounts related to their hobbies and interests</li>
+        <li class="mt-1">keeping up with influencers and celebrities</li>
+      </ul>
+      <p class="mt-4 leading-relaxed">When asked how confident they felt that they've "caught up" on new posts each time they used the app, over half rated their confidence level at a 3 or less.</p>
+    </div>
+    <figure class="my-16 bg-gray-100">
+      <img class="py-8 mx-auto" src="./dist/images/ig-lists/survey-results.jpg" alt="Survey results">
+    </figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+      <p class="mt-4 leading-relaxed">This was an interesting discovery and I believe a major reason for this is the single monolithic feed, leading to some unwanted side effects:</p>
+      <p class="mt-4 leading-relaxed">(A bit of a side note: It's worth mentioning that a decent number of respondents also rated their level of confidence at a 5, but most of these respondents either spent larger amounts of time on the app or followed less than 100 accounts. As with any self-reported data, it's difficult control for certain biases, but it was revealing nonetheless.)</p>
+			<h3 class="mt-4 font-bold text-xl">Cognitive Overload</h3>
+      <p class="mt-4 leading-relaxed">Being bombarded with posts from friends, family, brands, influencers, etc., forces the mind to context-switch over and over straining mental resources and attention.</p>
+      <h3 class="mt-4 font-bold text-xl">Less Engagement</h3>
+      <p class="mt-4 leading-relaxed">A single feed encourages users to scroll and might increase time spent on the app, but that doesn't necessarily mean increased engagement (i.e. liking, commenting, or sharing). Without any sense of organization, users may scroll mindlessly simply to see "what's next".</p>
+      <h3 class="mt-4 font-bold text-xl">Revisiting Posts</h3>
+      <p class="mt-4 leading-relaxed">Trying to revisit a previously viewed post would be difficult in one giant feed, especially if you're following hundreds of accounts. The same goes for trying to find an account handle directly from your following list. Trying to recall something like this from memory is very difficult.</p>
+      <h3 class="mt-4 font-bold text-xl">But wait! There's more!</h3>
+      <p class="mt-4 leading-relaxed">Secondary research revealed that a similar feature had existed on Facebook's mobile app, called Friend List, which let users to group their friends into categories, like "Close Friends" or "Acquaintances", and allowed them to read specific people's updates in their own separate News Feed.</p>
+      <p class="mt-4 leading-relaxed">TechCrunch <a class="font-extrabold border-b border-red-700 hover:border-transparent hover:text-red-700 focus:text-red-700 focus:border-b-0 transition duration-200 ease-in-out" href="https://techcrunch.com/2018/08/09/facebook-is-shutting-down-friend-list-feeds-today/" target="_blank">reported</a> that Facebook had shutdown this feature in order to focus on improving the main News Feed; however, it seems like it was a genuinely useful feature for people.</p>
+    </div>
+    <figure class="mt-16 bg-gray-100">
+      <img class="py-8 mx-auto" src="./dist/images/ig-lists/testimony.jpg" alt="Testimony">
+    </figure>
+	</section>
+
+	<section class="py-8">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Solution</h2>
+      <p class="mt-4 leading-relaxed">By allowing people to group the accounts they follow and create custom feeds with Lists, the aforementioned side effects could be lessened.</p>
+			<h3 class="mt-4 font-bold text-xl">Improved Focus</h3>
+      <p class="mt-4 leading-relaxed">Having organized feeds categorized by like accounts will help decrease cognitive load and improve focus.</p>
+      <h3 class="mt-4 font-bold text-xl">Increased Engagement</h3>
+      <p class="mt-4 leading-relaxed">Custom feeds will mentally prime users to expect certain types of content, which could increase engagement.  This might decrease time spent on the app, but Instagram can add more value by contextually providing similar accounts to follow and serving ads relevant to the type of accounts in that particular feed.</p>
+      <h3 class="mt-4 font-bold text-xl">Finding a Post or User</h3>
+      <p class="mt-4 leading-relaxed">By chunking together similar accounts into groups, users will be able to better find and revisit previously viewed posts. And since recognition is triggered by context, users won't have to recall a post or an account handle from memory.</p>
+		</div>
+	</section>
+
+	<section class="py-8">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Ideation</h2>
+      <p class="mt-4 leading-relaxed">I started by studying Instagram's iOS app design and how they approached layout, menus, and setting options. I also looked at Pinterest's mobile app to see if I could pick up any additional design cues.</p>
+			<p class="mt-4 leading-relaxed">After outlining some high-level user stories, I put together detailed task flows and did some rough sketches.</p>
+      <h3 class="mt-4 font-bold text-xl">User Stories</h3>
+			<ul class="pl-8 mt-4 list-disc list-outside">
+				<li>As a user, I want to create and delete lists so that I can organize the accounts that I follow.</li>
+        <li class="mt-1">As a user, I want to be able to add accounts to my lists and remove accounts from my lists.</li>
+				<li class="mt-1">As a user, I want to be able to switch between my lists to view different feeds.</li>
+      </ul>
+      <p class="mt-4 leading-relaxed"><a class="font-extrabold border-b border-red-700 hover:border-transparent hover:text-red-700 focus:text-red-700 focus:border-b-0 transition duration-200 ease-in-out" href="https://www.figma.com/file/P3HMZVfZyizFQIicXr0WdH/Instagram-Lists?node-id=0%3A1" target="_blank">Click here</a> to see the task flows in greater detail.</p>
+		</div>
+    <figure class="mt-16 bg-gray-100">
+      <img class="py-8 mx-auto" src="./dist/images/ig-lists/taskflows.jpg" alt="Taskflows">
+    </figure>
+	</section>
+
+	<section class="relative py-8" id="final_mockups">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Final Mockups</h2>
+			<h3 class="mt-4 font-bold text-xl">The Home Screen & List Switching</h3>
+			<p class="mt-4 leading-relaxed">To really meld Lists in to the existing UI, I took inspiration from the categories at the top of the Explore screen to display user created lists.</p>
+		</div>
+		<figure class="my-16 bg-gray-100">
+			<img class="pt-8 mx-auto" src="./dist/images/ig-lists/homescreen.jpg" alt="Lists homescreen">
+		</figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+      <p class="mt-4 leading-relaxed">This horizontal scroll holds the seven most recently viewed lists and people can switch between them with a simple tap. Each list then displays as a custom feed, showing posts <span class="font-extrabold italic">and</span> stories from accounts that the user has added to that list.</p>
+      <p class="mt-4 leading-relaxed">The "All Posts" list is exactly what you'd expect, and displays posts/stories from all following accounts. Content from any account <span class="font-extrabold italic">not</span> in a list will continue to appear in this feed.</p>
+		</div>
+		<figure class="my-16 bg-gray-100">
+			<img class="pt-8 mx-auto" src="./dist/images/ig-lists/custom-feeds.jpg" alt="Custom feeds">
+		</figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<p class="mt-4 leading-relaxed">I initially placed all lists in the horizonatal scroll; but I realized that scrolling would be cumbersome if a user has a lot of lists, especially since the top of the screen is difficult to reach with one hand. So instead, I opted to have a separate slide up menu for viewing all lists.</p>
+		</div>
+		<figure class="my-16 bg-gray-100">
+			<img class="mx-auto" src="./dist/images/ig-lists/full-list.jpg" alt="Full list">
+		</figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h3 class="mt-4 font-bold text-xl">Adding/Removing Accounts</h3>
+			<p class="mt-4 leading-relaxed">Users can add an account to a list or remove an account from a list from a post's options menu. (Lists can also be managed in the main Lists menu — more on that below.) If the list they want to add the account to doesn't exist, they can create a new list on the spot.</p>
+		</div>
+		<figure class="my-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/ig-lists/add-to-list.jpg" alt="Adding to a list">
+    </figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+      <h3 class="mt-4 font-bold text-xl">When Following a New Account</h3>
+      <p class="mt-4 leading-relaxed">Similarly, users will also have the option to add an account to a list when they follow a new account. This way, they won't have to take additional steps later in adding that account to a list in the main Lists menu.</p>
+    </div>
+		<figure class="my-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/ig-lists/follow-add.jpg" alt="Adding to list after following">
+		</figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h3 class="mt-4 font-bold text-xl">Main Lists Menu</h3>
+			<p class="mt-4 leading-relaxed">This is the control center where users can fully manage their lists. Here, they can view lists, create/delete lists, sort lists, and add/remove accounts in bulk.</p>
+		</div>
+		<figure class="my-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/ig-lists/lists-menu.jpg" alt="Lists menu">
+    </figure>
+    <div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h3 class="mt-4 font-bold text-xl">Last but not least — Onboarding!</h3>
+      <p class="mt-4 leading-relaxed">To simulate how Lists might work in the real world, I also designed a progressive onboarding process. A series of modals guides users to the main Lists menu, where an empty state screen provides more information on functionality and nudges them to make their first list.</p>
+		</div>
+    <figure class="my-16 bg-gray-100">
+      <img class="py-8 mx-auto" src="./dist/images/ig-lists/onboarding-modal.jpg" alt="Onboarding modal">
+    </figure>
+    <div class="px-6 sm:px-0 max-w-xl mx-auto">
+      <p class="mt-4 leading-relaxed">The empty state screen also includes a "How it works" menu (similar to the "How it works" menu for Instagram's Close Friends feature).</p>
+      <p class="mt-4 leading-relaxed">Lastly, I placed <span class="px-2 text-sm font-medium border-2 border-black rounded">New</span> icon indicators inside relevant menus to bring attention to the new feature as users navigate the app.</p>
+    </div>
+    <figure class="mt-16 bg-gray-100">
+      <img class="mx-auto" src="./dist/images/ig-lists/how-it-works.jpg" alt="How it works">
+    </figure>
+	</section>
+
+	<section class="relative pt-8 pb-16">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+      <h2 class="font-serif font-black text-3xl">Clickable Prototype</h2>
+      <p class="mt-4 leading-relaxed"><a class="font-extrabold border-b border-red-700 hover:border-transparent hover:text-red-700 focus:text-red-700 focus:border-b-0 transition duration-200 ease-in-out" href="https://www.figma.com/proto/P3HMZVfZyizFQIicXr0WdH/Instagram-Lists?node-id=1%3A345&viewport=599%2C1909%2C0.5580300688743591&scaling=min-zoom" target="_blank">Click here</a> to see the full prototype with all the above mentioned elements in action.</p>
+		</div>
+  </section>
+
+	<section class="relative py-32 bg-gray-900 text-gray-100">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Reflection</h2>
+      <p class="mt-4 leading-relaxed">I really enjoyed working on this project because it pushed me to think beyond surface level considerations. Working out all the different app states and screens where it made sense to include this feature was deceptively hard.</p>
+      <p class="mt-4 leading-relaxed">It was also challenging — yet strangely freeing — not to design any new components. By leveraging existing UI elements, I feel I was still able to provide a familiar experience, despite having introduced a major new feature. This project made me think more critically of Instagram's current design and appreciate it in a way I wouldn't have otherwise.</p>
+		</div>
+  </section>
+
+  <button class="hidden fixed bottom-3 right-3 scroll-top">
+    <svg class="w-12 h-12 p-2 bg-white rounded-full shadow-xl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
+	<script src="./dist/js/script.min.js" type="text/javascript"></script>
+
+</body>
+</html>

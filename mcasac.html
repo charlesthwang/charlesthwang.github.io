@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Animal Adoption Center &middot; Charles Hwang</title>
+	<link rel="stylesheet" text="text/css" href="/dist/css/style.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+	<link rel='stylesheet' href='https://rsms.me/inter/inter.css'/>
+</head>
+
+<body class="antialiased font-sans text-lg top">
+	<div class="bg-blue-800 text-blue-100 sm:px-6 lg:px-8 text-opacity-50">
+		<nav class="w-11/12 md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto flex items-center justify-between py-6 sm:py-8">
+			<a class="text-base sm:text-lg block font-medium hover:text-blue-100 focus:text-blue-100 transition duration-200 ease-in-out" href="/">Charles Hwang</a>
+			<ul class="text-base sm:text-lg flex items-center">
+				<li class="">
+					<a class="font-medium text-blue-100 border-b border-blue-100" href="/">Work</a>
+				</li>
+				<!-- <li class="ml-8 sm:ml-10">
+					<a class="font-medium border-b border-transparent hover:text-blue-100 focus:text-blue-100 hover:border-blue-100 focus:border-blue-100 transition duration-200 ease-in-out" href="/about.html">About me</a>
+				</li> -->
+				<li class="ml-8 sm:ml-10">
+					<a class="font-medium border-b border-transparent hover:text-blue-100 focus:text-blue-100 hover:border-blue-100 focus:border-blue-100 transition duration-200 ease-in-out" href="mailto:charlesthwang@gmail.com">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+
+	<header class="px-6 pt-20 md:px-0 text-white bg-blue-800">
+		<div class="md:max-w-xl mx-auto text-center">
+			<h1 class="font-serif font-black text-4xl leading-snug">Increasing Pet Adoptions with Improved Search</h1>
+		</div>
+		<img class="block mt-12 mx-auto" src="./dist/images/mcasac/preview.jpg" alt="MCASAC redesign preview">
+	</header>
+
+	<section class="pt-16 pb-8">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Overview</h2>
+			<p class="mt-4 leading-relaxed">The Montgomery County Animal Services and Adoption Center provides high-standard sheltering and advocates for reponsible pet care through community outreach.</p>
+			<p class="mt-4 leading-relaxed">I worked to redesign the MSASAC search experience, while also giving it a modern look and feel.</p>
+			<p class="mt-4 leading-relaxed">
+				<a class="font-extrabold border-b border-red-700 hover:border-transparent hover:text-red-700 focus:text-red-700 focus:border-b-0 transition duration-200 ease-in-out" href="#final_design">Click here</a> to jump down to the final design.
+			</p>
+			<h3 class="mt-8 font-bold text-lg text-gray-700">What I Did</h3>
+			<ul class="pl-8 mt-1 list-disc list-outside">
+				<li>Usability testing</li>
+				<li class="mt-1">Competitive analysis</li>
+				<li class="mt-1">Wireframing & prototyping</li>
+				<li class="mt-1">Hi-Fi mockup</li>
+			</ul>
+			<h3 class="mt-4 font-bold text-lg text-gray-700">Timeline</h3>
+			<p class="mt-1">February 2020, 3 weeks</p>
+		</div>
+	</section>
+	<section class="py-8">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Problem</h2>
+			<p class="mt-4 leading-relaxed">The <a class="font-semibold border-b border-red-700 hover:border-transparent hover:text-red-700 focus:text-red-700 focus:border-b-0 transition duration-200 ease-in-out" href="https://www.montgomerycountymd.gov/animalservices/adoption/dogs.html" target="_blank">current search experience</a> for animals makes it difficult for people to browse and quickly find what they are looking for. This is especially apparent when using the site on a mobile device.</p>
+			<p class="mt-4 leading-relaxed">This may cause people to prematurely abandon the site, resulting in missed opportunities for adoptions and fostering.</p>
+			<p class="pl-6 mt-16 border-l-4 border-red-700 font-bold text-3xl text-red-700">How might we increase pet adoptions and fostering?</p>
+		</div>
+	</section>
+
+	<section class="relative py-8">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Hypothesis</h2>
+			<p class="mt-4 leading-relaxed">I believe that getting users to quickly find the animal they are looking for will increase pet adoptions and fostering.</p>
+		</div>
+	</section>
+
+	<section class="py-8">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Usability Testing</h2>
+			<p class="mt-4 leading-relaxed">To get a better understanding of usability issues, I asked five people to go through three realistic task-based scenarios.</p>
+			<p class="mt-4 leading-relaxed">(See the tasks and post-session questionnaire <a class="font-extrabold border-b border-red-700 hover:border-transparent hover:text-red-700 focus:text-red-700 focus:border-b-0 transition duration-200 ease-in-out" href="https://docs.google.com/document/d/118Nz2WX28EbssNnReVrVwuuhPGcyIS_Cu5tTqBWe_Zk/edit?usp=sharing" target="_blank">here</a>).</p>
+			<p class="mt-4 leading-relaxed">After observing and reviewing their actions and comments, I noticed that the majority of issues fell into one of three categories:</p>
+			<ul class="mt-4 pl-8 list-disc list-outside">
+				<li>Visual/content hierarchy</li>
+				<li class="mt-1">Page layout</li>
+				<li class="mt-1">Lack of ability to search/filter</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="py-8">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Insights</h2>
+			<h3 class="mt-4 font-bold text-xl">Visual/Content Hierarchy</h3>
+			<p class="mt-4 leading-relaxed">Usability tests showed that users would rather see more bigger pictures on the search results page. They also had a hard time digesting the amount of description text with one person stating that it was too narrative. The proximity of the description text between animals added to that frustration.</p>
+			<p class="mt-4 leading-relaxed">It was also pointed out that the description is repeated on the animal detail page, so it unnecessarily competes for attention.</p>
+			<p class="mt-4 leading-relaxed">In addition, since all the content is in the same font size and weight, there isn't any sense of hierarchy to determine what content is important.</p>
+		</div>
+		<figure class="my-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/mcasac/content-hierarchy.jpg" alt="Content hierarchy">
+		</figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<p class="mt-4 leading-relaxed">Not only does this increase cognitive load and make the content difficult to scan, but the lack of emphasis on important content means that the call-to-action (CTA) can get lost. In fact, no one was able to complete the task that required clicking on this link.</p>
+		</div>
+		<figure class="my-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/mcasac/cta.jpg" alt="Call to action">
+		</figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h3 class="mt-4 font-bold text-xl">Page Layout</h3>
+			<p class="mt-4 leading-relaxed">Users didn't like how the content was displayed in rows. Since tables are best suited for presenting data, the content doesn't work well in this layout.</p>
+			<p class="mt-4 leading-relaxed">The layout confused users as they didn't know what actions were possible. One person tried clicking directly on a table row and another clicked on a picture only because the description text didn't contain any links.</p>
+		</div>
+		<figure class="my-16 bg-gray-100">
+			<img class="py-8 mx-auto"src="./dist/images/mcasac/table-row.jpg" alt="Table row">
+		</figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h3 class="mt-4 font-bold text-xl">Search/Filter</h3>
+			<p class="mt-4 leading-relaxed">The biggest frustration was the lack of ability to filter the search results. One user was forced to go through <span class="font-extrabold italic">each page of results</span> to see all of the available dogs because her apartment had breed/size restrictions.</p>
+			<p class="mt-4 leading-relaxed">When asked to find a specific cat available for adoption, users didn't realize they could alphabetize the search results by clicking on the description heading (by default they are organized by ID number). Instead, they resorted to the browser's built-in Find command.</p>
+		</div>
+		<figure class="my-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/mcasac/table-sort.jpg" alt="Table sort">
+		</figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<p class="mt-4 leading-relaxed">Users also tried using the site-wide search at the top of the page, but even this caused confusion. Since MCASAC's website lives under the larger county website, the search here not only included results for MCASAC, but the <span class="font-extrabold italic">entire</span> county website.</p>
+		</div>
+		<figure class="my-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/mcasac/site-search.jpg" alt="Site search">
+		</figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<p class="mt-4 leading-relaxed">Only two users used the "Maximum Search" link towards the bottom of the page. But this also caused confusion because "Maximum Search" meant searching animals at <span class="font-extrabold italic">other</span> shelters. Users expected their search to be within MCASAC.</p>
+			<blockquote class="pl-6 mt-16 border-l-4 border-red-700 font-bold text-3xl text-red-700"><span>&#8220;</span>To me, maximum search means maximum parameters<span>&#8221;</span></blockquote>
+		</div>
+		<figure class="mt-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/mcasac/maximum-search.jpg" alt="Maximum search">
+		</figure>
+	</section>
+
+	<section class="py-8">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Ideation</h2>
+			<p class="mt-4 leading-relaxed">I looked at other pet adoption websites to see if they showed similiar issues and draw inspiration from what they were doing well.</p>
+			<p class="mt-4 leading-relaxed">These were the main takeaways that could ease the frustrations uncovered from usuability testing:</p>
+			<ul class="pl-8 mt-4 list-disc list-outside">
+				<li>Establish a clear visual/content hierarchy so users can easily find information they're looking for </li>
+				<li class="mt-1">Use a grid layout to improve navigation and display animals in digestable chucks</li>
+				<li class="mt-1">Add the ability to filter by animal attributes to allow for speedier searches</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="relative py-8">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Wireframes</h2>
+			<p class="mt-4">Keeping those takeaways in mind, these were the final wireframes that I landed on:</p>
+		</div>
+		<figure class="my-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/mcasac/wireframes.jpg" alt="MCASAC Wirefames">
+		</figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<p class="mt-4 leading-relaxed">Let's examine how this design can ease users' frustrations.</p>
+		</div>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h3 class="mt-4 font-bold text-xl">Reorganizing Content and Establishing Scale</h3>
+			<p class="mt-4 leading-relaxed">Save for the name, breed, and age, the description text was removed from the search results for each animal. Removing the superfluous text allows users to scan the results more quickly.</p>
+			<p class="mt-4 leading-relaxed">To further increase scannability (and decrease cognitive load), there is a clear sense of hierarchy and scale in regards to the text. By establishing this visual rhythm, users can more easily discern through size, position, and proximity what pieces of content they should prioritize (e.g. pet name or number of results).</p>
+		</div>
+		<figure class="my-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/mcasac/text-scale.jpg" alt="Text scale">
+		</figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<p class="mt-4 leading-relaxed">In addition, the CTAs are much more prominent and less likely to be overlooked.</p>
+		</div>
+		<figure class="my-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/mcasac/cta-redesign.jpg" alt="Call to action redesign">
+		</figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h3 class="mt-4 font-bold text-xl">The Grid Layout</h3>
+			<p class="mt-4 leading-relaxed">Rather than a table, using a grid layout will be more consistent with what users expect from their <a href="https://www.nngroup.com/videos/jakobs-law-internet-ux" class="font-extrabold border-b border-red-700 hover:border-transparent hover:text-red-700 focus:text-red-700 focus:border-b-0 transition duration-200 ease-in-out">experience on other websites</a>. Since the description text is redundant, removing it will create the space to allow for a grid layout.</p>
+			<p class="mt-4 leading-relaxed">Creating this visual organization will not only help users navigate and digest the content more easily, but also makes it clear that the grid card is clickable. Additionally, a grid layout will allow for a cleaner mobile design, as tables don't play nice when responding to narrower screen widths.</p>
+		</div>
+		<figure class="my-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/mcasac/grid-layout.jpg" alt="Grid layout">
+		</figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h3 class="mt-4 font-bold text-xl">Adding Search/Filter</h3>
+			<p class="mt-4 leading-relaxed">The inability to filter results was the most notable frustration uncovered from user testing, so I included 5 filter critera (based on a survey on what factors were most important to users when considering a pet).</p>
+		</div>
+		<figure class="my-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/mcasac/filters.jpg" alt="Filters">
+		</figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<p class="mt-4 leading-relaxed">The ability to sort by either name or ID number is retained, but is now much more evident by a segmented button. There is also a dedicated search box for pets separate from the county site-wide search box. </p>
+		</div>
+		<figure class="mt-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/mcasac/sort-search.jpg" alt="Sort and pet search">
+		</figure>
+	</section>
+
+	<section class="relative py-8">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">The Homepage</h2>
+			<p class="mt-4 leading-relaxed">Currently, the homepage contains the hours of operation, a few social media links and, <span class="italic">nothing else</span>.</p>
+		</div>
+		<figure class="my-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/mcasac/mcasac-homepage.jpg" alt="MCASAC homepage">
+		</figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<p class="mt-4 leading-relaxed">This is a huge missed opportunity to introduce MCASAC's mission, CTAs, and help guide users to other important areas of the site.</p>
+			<p class="mt-4 leading-relaxed">Without any of this, users are left wondering what the site has to offer, or if they are even on the right website to begin with.</p>
+			<p class="mt-4 leading-relaxed">To find what they're looking for, users are left to hunt through the navigational menu items. To search for adoptable dogs, for example, users have to know to navigate to <span class="font-semibold italic">Adoption > Adoptable Pets > Search Dogs</span>.</p>
+			<p class="mt-4 leading-relaxed">First impressions are important. Giving the impression that a website is easy to use by having a well-designed and organized homepage can garner trust and minimize site abandonment.</p>
+		</div>
+		<figure class="my-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/mcasac/homepage-redesign.jpg" alt="MSASAC homepage redesign">
+		</figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<p class="mt-4 leading-relaxed">For the new homepage, I placed the animal search functionality in the header. This reduces the number of steps users have to take to begin searching for pets.</p>
+			<p class="mt-4 leading-relaxed">I also relocated the featured pets to the homepage. Currently, featured pets live at the bottom of the search results pages. Having them on the homepage will increase views and acts as another pathway to the search page. </p>
+			<p class="mt-4 leading-relaxed">Zoom in below to see the user flow from the homepage to the pet listing page to the pet detail page.</p>
+		</div>
+		<div class="mt-16 bg-gray-100">
+			<div style="padding-top:514px;" class="relative overflow-hidden max-w-xl mx-auto">
+				<iframe class="absolute inset-0 w-full h-full px-6 sm:px-0 py-8 mx-auto" style="border: none;" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FpOMSMAyuAyGLaSdTYTKu0u%2FMCASAC-Redesign%3Fnode-id%3D3%253A1376" tabindex="-1" allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+
+	<section class="pt-8" id="final_design">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Final Design</h2>
+			<p class="mt-4 leading-relaxed"><a class="font-extrabold border-b border-red-700 hover:border-transparent hover:text-red-700 focus:text-red-700 focus:border-b-0 transition duration-200 ease-in-out" href="https://www.figma.com/file/pOMSMAyuAyGLaSdTYTKu0u/MCASAC-Redesign?node-id=0%3A1" target="_blank">Click here</a> for the full mockups and see how it works with the <a class="font-extrabold border-b border-red-700 hover:border-transparent hover:text-red-700 focus:text-red-700 focus:border-b-0 transition duration-200 ease-in-out" href="https://www.figma.com/proto/pOMSMAyuAyGLaSdTYTKu0u/MCASAC-Redesign?node-id=12%3A2754&scaling=min-zoom" target="_blank">desktop</a> and <a class="font-extrabold border-b border-red-700 hover:border-transparent hover:text-red-700 focus:text-red-700 focus:border-b-0 transition duration-200 ease-in-out" href="https://www.figma.com/proto/pOMSMAyuAyGLaSdTYTKu0u/MCASAC-Redesign?node-id=20%3A544&scaling=min-zoom" target="_blank">mobile</a> clickable prototypes.</p>
+		</div>
+		<figure class="mt-16 bg-gray-100">
+			<img class="pt-8 mx-auto" src="./dist/images/mcasac/list-page-redesign.jpg" alt="List page redesign">
+		</figure>
+		<figure class="bg-gray-100">
+			<img class="pb-8 mx-auto" src="./dist/images/mcasac/detail-page-redesign.jpg" alt="Pet detail page redesign">
+		</figure>
+	</section>
+
+	<section class="relative py-32 bg-gray-900 text-gray-100">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Next Steps</h2>
+			<p class="mt-4 leading-relaxed">Using the clickable prototypes, I'd want to see how users would fare in another round of testing.</p>
+			<p class="mt-4 leading-relaxed">Since this is only the first round of designs, testing my assumptions and gathering feedback will be important for making interative adjustments, and ultimately, validating my hypothesis.</p>
+		</div>
+	</section>
+
+	<button class="hidden fixed bottom-3 right-3 scroll-top">
+    <svg class="w-12 h-12 p-2 bg-white rounded-full shadow-xl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+	</button>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
+	<script src="./dist/js/script.min.js" type="text/javascript"></script>
+
+</body>
+</html>
