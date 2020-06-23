@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Blood Donor App &middot; Charles Hwang</title>
+	<link rel="stylesheet" text="text/css" href="/dist/css/style.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+	<link rel='stylesheet' href='https://rsms.me/inter/inter.css'/>
+	<link rel="icon" type="image/png" href="./dist/images/favicons/favicon-120.png"/>
+	<link rel="icon" type="image/png" sizes="16x16" href="./dist/images/favicons/favicon-16.png"/>
+	<link rel="icon" type="image/png" sizes="32x32" href="./dist/images/favicons/favicon-32.png"/>
+	<link rel="icon" type="image/png" sizes="96x96" href="./dist/images/favicons/favicon-96.png"/>
+	<link rel="icon" type="image/png" sizes="196x196" href="./dist/images/favicons/favicon-196.png"/>
+	<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="./dist/images/favicons/favicon-apple.png"/>
+</head>
+
+<body class="antialiased font-sans text-lg top">
+	
+	<nav class="bg-indigo-900 text-blue-100 sm:px-6 lg:px-8 text-opacity-50">
+		<div class="w-11/12 md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto flex items-center justify-between py-6 sm:py-8">
+			<a class="text-base sm:text-lg block font-medium hover:text-blue-100 focus:text-blue-100 transition duration-200 ease-in-out" href="/">Charles Hwang</a>
+			<ul class="text-base sm:text-lg flex items-center">
+				<li class="">
+					<a class="font-medium text-blue-100 border-b border-blue-100" href="/">Work</a>
+				</li>
+				<li class="ml-8 sm:ml-10">
+					<a class="font-medium border-b border-transparent hover:text-blue-100 focus:text-blue-100 hover:border-blue-100 focus:border-blue-100 transition duration-200 ease-in-out" href="/about.html">About</a>
+				</li>
+				<li class="ml-8 sm:ml-10">
+					<a class="font-medium border-b border-transparent hover:text-blue-100 focus:text-blue-100 hover:border-blue-100 focus:border-blue-100 transition duration-200 ease-in-out" href="mailto:charlesthwang@gmail.com">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<header class="px-6 pt-20 md:px-0 text-white bg-indigo-900">
+		<div class="md:max-w-xl mx-auto text-center">
+			<h1 class="font-serif font-black text-4xl leading-snug">Simpler Appointment Scheduling for Blood Donations</h1>
+		</div>
+		<img class="block mt-12 mx-auto" src="./dist/images/blood-donor/preview.jpg" alt="Blood Donor app preview">
+	</header>
+
+	<section class="pt-16 pb-8">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Overview</h2>
+			<p class="mt-4 leading-relaxed">This project is a redesign of the appointment scheduling process on the Red Cross Blood Donor app.</p>
+			<p class="mt-4 leading-relaxed">My goal was to design a new interface and flow that allowed users to quickly and confidently schedule blood donation appointments.</p>
+			<p class="mt-4 leading-relaxed">
+				<a class="font-extrabold border-b border-red-700 hover:border-transparent hover:text-red-700 focus:text-red-700 focus:border-b-0 transition duration-200 ease-in-out" href="#final_design">Click here</a> to jump down to the final design and <a class="font-extrabold border-b border-red-700 hover:border-transparent hover:text-red-700 focus:text-red-700 focus:border-b-0 transition duration-200 ease-in-out" href="https://www.figma.com/proto/xLTBhTbwWkiOtokQhEFqiK/Blood-Donation?node-id=180%3A643&viewport=678%2C631%2C0.27702176570892334&scaling=min-zoom" target="_blank">here</a> to see the clickable prototype.
+			</p>
+			<h3 class="mt-8 font-bold text-lg text-gray-700">What I Did</h3>
+			<ul class="pl-8 mt-1 list-disc list-outside">
+        <li>Secondary research</li>
+        <li class="mt-1">Empathy mapping</li>
+				<li class="mt-1">Persona creation</li>
+				<li class="mt-1">Lo-Fi sketching</li>
+				<li class="mt-1">Hi-Fi prototype</li>
+			</ul>
+			<h3 class="mt-4 font-bold text-lg text-gray-700">Timeline</h3>
+			<p class="mt-1">May 2020, 2 weeks</p>
+		</div>
+	</section>
+
+	<section class="py-8">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Challenge</h2>
+			<p class="mt-4 leading-relaxed">I recently donated blood for the first time, but had a difficult time trying to schedule an appointment through the Red Cross Blood Donor app.</p>
+      <p class="mt-4 leading-relaxed">It was frustrating that the app continually displayed appointment dates that didn't have any open time slots, but the process flow also felt inefficient.
+      <p class="mt-4 leading-relaxed">My challenge was to simplify the scheduling flow, while also updating the UI to feel more like <a class="font-extrabold border-b border-red-700 hover:border-transparent hover:text-red-700 focus:text-red-700 focus:border-b-0 transition duration-200 ease-in-out" href="https://material.io/components" target="_blank">Material Design</a>.</p>
+		</div>
+  </section>
+  
+	<section class="relative py-8">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+      <h2 class="font-serif font-black text-3xl">Validating the Problem</h2>
+      <p class="mt-4 leading-relaxed">I wanted to know if I was the only one who struggled to make an appointment on the app, so I dove in to the app reviews on both the App Store and the Play Store.</p>
+      <p class="mt-4 leading-relaxed">The app seemed to have other technical issues, but there were many people who also expressed frustration scheduling an appointment. <span class="font-extrabold">Many deserted the app altogether to schedule an appointment over the phone or on the website.</span></p>
+      <p class="mt-4 leading-relaxed"><a class="font-extrabold border-b border-red-700 hover:border-transparent hover:text-red-700 focus:text-red-700 focus:border-b-0 transition duration-200 ease-in-out" href="https://www.figma.com/proto/xLTBhTbwWkiOtokQhEFqiK/Blood-Donation?node-id=194%3A0&viewport=-385%2C899%2C0.22209887206554413&scaling=min-zoom" target="_blank">Click here</a> to interact with the current Blood Donor app.
+			</p>
+      <p class="pl-6 mt-16 border-l-4 border-red-700 font-bold text-3xl text-red-700">Extremely hard to set search parameters which forces you to start & restart scheduling workflow.</p>
+    </div>
+    <figure class="my-16 bg-gray-100">
+      <img class="py-8 mx-auto" src="./dist/images/blood-donor/app-reviews.jpg" alt="App reviews">
+    </figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+      <h3 class="mt-4 font-bold text-xl">Empathy Mapping & Persona Creation</h3>
+      <p class="mt-4 leading-relaxed">To better visualize the thoughts expressed in the user reviews, I put together an empathy map and created a proto-persona to guide me in making my design decisions.</p>
+    </div>
+    <figure class="my-16 bg-gray-100">
+      <img class="py-8 mx-auto" src="./dist/images/blood-donor/empathy-map.jpg" alt="Empathy map">
+    </figure>
+    <div class="px-6 sm:px-0 max-w-xl mx-auto">
+      <h3 class="mt-4 font-bold text-xl">User Need Statement</h3>
+      <p class="mt-4 leading-relaxed">Gabe, a volunteer firefighter with an irregular schedule, needs to easily find open time slots to donate blood, in order to confidently book appointments and save time.</p>
+    </div>
+    <figure class="mt-16 bg-gray-100">
+      <img class="py-8 mx-auto" src="./dist/images/blood-donor/persona.jpg" alt="Persona">
+    </figure>
+	</section>
+
+	<section class="py-8">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Heuristic Analysis</h2>
+      <p class="mt-4 leading-relaxed">To pinpoint where users might be getting frustrated, I created a task flow of the current app.</p>
+    </div>
+    <figure class="my-16 bg-gray-100">
+      <img class="py-8 mx-auto" src="./dist/images/blood-donor/taskflow-legacy.jpg" alt="Current task flow">
+    </figure>
+    <div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h3 class="mt-4 font-bold text-xl">Choosing a Date</h3>
+      <p class="mt-4 leading-relaxed">Users are limited to the current date or a <span class="font-extrabold italic">strict</span> 14-day date range. They aren't able to choose a future date or date range shorter than 14 days.</p>
+    </div>
+    <figure class="my-16 bg-gray-100">
+      <img class="py-8 mx-auto" src="./dist/images/blood-donor/date-legacy.jpg" alt="Date filter">
+    </figure>
+    <div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h3 class="mt-4 font-bold text-xl">Choosing a Time</h3>
+      <p class="mt-4 leading-relaxed">The app doesn't respect user input here (except for "Anytime"). In my use, the search results weren't restricted to my preferred time of day.</p>
+    </div>
+    <figure class="my-16 bg-gray-100">
+      <img class="py-8 mx-auto" src="./dist/images/blood-donor/time.jpg" alt="Time filter">
+    </figure>
+    <div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h3 class="mt-4 font-bold text-xl">Choosing a Donation Type</h3>
+      <p class="mt-4 leading-relaxed">Multiple users stated they wished they could search for multiple donation types. The current app forces users to reset the search results when they change the donation type.</p>
+      <h3 class="mt-4 font-bold text-xl">Location and Search Results</h3>
+      <p class="mt-4 leading-relaxed">This was the most frustrating stage of the scheduling flow. The app doesn't let the user choose a specific donation center and just lists all centers <span class="font-extrabold italic">near</span> them. And so, because the search results combines <span class="font-extrabold italic">both</span> the date and location, the resulting list is unwieldy.</p>
+      <p class="mt-4 leading-relaxed">Imagine trying to select an appointment from a search that covered a 14-day span for <span class="font-extrabold italic">every</span> location in your area. 🤯 This is exacerbated by the fact that the app shows dates and locations that doesn't have any open time slots.</p>
+      <p class="mt-4 leading-relaxed">It's also difficult to parse the information. There's a lot of repetitive text and the date—arguably the most important parameter—is in a smaller font size.</p>
+    </div>
+    <figure class="mt-16 bg-gray-100">
+      <img class="py-8 mx-auto" src="./dist/images/blood-donor/search-results.jpg" alt="Search results">
+    </figure>
+	</section>
+
+	<section class="py-8">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Ideation</h2>
+      <p class="mt-4 leading-relaxed">Brainstorming for the new design, I took inspiration from various booking, appointment, and calendar mockups I found on the web. I also studied the scheduling process on American Red Cross's website and Google's Material Design documentation to inform my final designs.</p>
+		</div>
+	</section>
+
+	<section class="relative py-8" id="final_design">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Final Design</h2>
+			<h3 class="mt-4 font-bold text-xl">New Task Flow</h3>
+			<p class="mt-4 leading-relaxed">I based my design around the assumption that users most value being able to search open time slots at a donation center <span class="font-extrabold">of their choosing</span>. This generates search results that are much more managable and easier to act on.</p>
+    </div>
+		<figure class="my-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/blood-donor/taskflow-redesign.jpg" alt="Redesigned taskflow">
+		</figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+      <h3 class="mt-4 font-bold text-xl">Choosing a Date</h3>
+      <p class="mt-4 leading-relaxed">Users can quickly select a date up to a week out from the current date, or with the date range picker, choose a date further out or select a date range. The date range picker also provides a much clearer visualization of their selection.</p>
+		</div>
+		<figure class="my-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/blood-donor/date-redesign.jpg" alt="Redesigned date filter">
+		</figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+      <h3 class="mt-4 font-bold text-xl">Choosing a Location</h3>
+      <p class="mt-4 leading-relaxed">The new design allows users to explicitly select a donation center. By limiting search results to a single location, users can focus better on the dates and times that works for them.</p>
+			<p class="mt-4 leading-relaxed">Users can also set a donation center as their "home location", allowing them to search times at their most preferred center by default.</p>
+		</div>
+		<figure class="my-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/blood-donor/choose-center.jpg" alt="Choosing a donation center">
+		</figure>
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h3 class="mt-4 font-bold text-xl">Creating your Appointment</h3>
+      <p class="mt-4 leading-relaxed">After selecting a date and donation center, users can choose from open times to create an appointment (if a date range was entered, users are first presented with dates that have availability).</p>
+      <p class="mt-4 leading-relaxed">The biggest change I made here was to combine selecting the time and donation type into one task. Users can see all open times <span class="font-extrabold italic">and</span> the donation types available at those times.</p>
+			<p class="mt-4 leading-relaxed">This eliminates the step of users currently having to choose a time of day (morning, afternoon, evening) and solves their need to search for more than donation type at a time.</p>
+		</div>
+		<figure class="mt-16 bg-gray-100">
+			<img class="py-8 mx-auto" src="./dist/images/blood-donor/create-appointment.jpg" alt="Creating an appointment">
+    </figure>
+	</section>
+
+	<section class="relative pt-8 pb-16">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+      <h2 class="font-serif font-black text-3xl">Clickable Prototype</h2>
+      <p class="mt-4 leading-relaxed"><a class="font-extrabold border-b border-red-700 hover:border-transparent hover:text-red-700 focus:text-red-700 focus:border-b-0 transition duration-200 ease-in-out" href="https://www.figma.com/proto/xLTBhTbwWkiOtokQhEFqiK/Blood-Donation?node-id=180%3A643&viewport=678%2C631%2C0.27702176570892334&scaling=min-zoom" target="_blank">Click here</a> to see the full prototype in action.</p>
+		</div>
+  </section>
+
+	<section class="relative py-32 bg-gray-900 text-gray-100">
+		<div class="px-6 sm:px-0 max-w-xl mx-auto">
+			<h2 class="font-serif font-black text-3xl">Reflection</h2>
+      <p class="mt-4 leading-relaxed">I learned a lot working through this project. Although I was unable to perform usuability testing (due to social distancing measures), I was able to distill the information gathered from app reviews into a clear user archetype that helped keep my process centered around user needs. This project was also a great exercise in taking complicated user flows and and interactions and finding ways to simplify and streamline them.</p>
+      <p class="mt-4 leading-relaxed">Although my design choices were based on user feedback, they still involved some trade-offs. My search results are limited to one location at a time, which could be too restricting for some users. There's always room for improvement, but hopefully this concept could help people find more opportunities to donate.</p>
+		</div>
+  </section>
+
+  <button class="hidden fixed bottom-3 right-3 scroll-top">
+    <svg class="w-12 h-12 p-2 bg-white rounded-full shadow-xl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
+	<script src="./dist/js/script.min.js" type="text/javascript"></script>
+
+</body>
+</html>

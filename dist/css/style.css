@@ -108,7 +108,9 @@ img {
  * 2. Remove the margin in Firefox and Safari.
  */
 
-button {
+button,
+input,
+select {
   font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
@@ -120,7 +122,8 @@ button {
  * 1. Show the overflow in Edge.
  */
 
-button { /* 1 */
+button,
+input { /* 1 */
   overflow: visible;
 }
 
@@ -129,7 +132,8 @@ button { /* 1 */
  * 1. Remove the inheritance of text transform in Firefox.
  */
 
-button { /* 1 */
+button,
+select { /* 1 */
   text-transform: none;
 }
 
@@ -138,7 +142,8 @@ button { /* 1 */
  */
 
 button,
-[type="button"] {
+[type="button"],
+[type="reset"] {
   -webkit-appearance: button;
 }
 
@@ -147,7 +152,8 @@ button,
  */
 
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -157,7 +163,8 @@ button::-moz-focus-inner,
  */
 
 button:-moz-focusring,
-[type="button"]:-moz-focusring {
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -354,6 +361,26 @@ img {
   border-style: solid;
 }
 
+input::-webkit-input-placeholder {
+  color: #a0aec0;
+}
+
+input::-moz-placeholder {
+  color: #a0aec0;
+}
+
+input:-ms-input-placeholder {
+  color: #a0aec0;
+}
+
+input::-ms-input-placeholder {
+  color: #a0aec0;
+}
+
+input::placeholder {
+  color: #a0aec0;
+}
+
 button {
   cursor: pointer;
 }
@@ -387,7 +414,9 @@ a {
  * normalize.css.
  */
 
-button {
+button,
+input,
+select {
   padding: 0;
   line-height: inherit;
   color: inherit;
@@ -461,6 +490,12 @@ img {
   --bg-opacity: 1;
   background-color: #2c5282;
   background-color: rgba(44, 82, 130, var(--bg-opacity));
+}
+
+.bg-indigo-900 {
+  --bg-opacity: 1;
+  background-color: #3c366b;
+  background-color: rgba(60, 54, 107, var(--bg-opacity));
 }
 
 .hover\:bg-white:hover {
@@ -587,10 +622,6 @@ img {
 
 .focus\:border-b-0:focus {
   border-bottom-width: 0;
-}
-
-.cursor-default {
-  cursor: default;
 }
 
 .block {
@@ -795,10 +826,6 @@ img {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.opacity-50 {
-  opacity: 0.5;
 }
 
 .overflow-hidden {
